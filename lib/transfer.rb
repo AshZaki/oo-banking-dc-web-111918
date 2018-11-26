@@ -11,7 +11,9 @@ class Transfer
   
   def valid?
     if self.status = "open"
-      
+      return true
+    else
+      return false
     end
   end
 end
