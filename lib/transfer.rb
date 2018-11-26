@@ -19,7 +19,7 @@ class Transfer
   
   def execute_transaction
     if @sender.status && @receiver.status = ""
-      self.status = "complete"
+      
     end
   end
 end
