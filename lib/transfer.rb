@@ -18,7 +18,7 @@ class Transfer
   end
   
   def execute_transaction
-    if @sender.status && @receiver.status = "pending"
+    if @sender.status && @receiver.status = ""
       self.status = "complete"
     end
   end
