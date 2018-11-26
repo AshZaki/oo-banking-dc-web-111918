@@ -11,6 +11,5 @@ class BankAccount
   
   def deposit(money)
     @balance << money
-    return @balance
   end
 end
