@@ -17,5 +17,11 @@ class BankAccount
     return "Your balance is $#{self.balance}."
   end
   
-  def 
+  def valid?
+    if @balance > 0
+      return true
+    else
+      return false
+    end
+  end
 end
