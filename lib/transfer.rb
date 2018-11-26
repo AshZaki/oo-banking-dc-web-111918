@@ -18,7 +18,7 @@ class Transfer
   end
   
   def execute_transaction
-    if @sender.balance = 0 || @receiver.balance = 0
+    if @sender.balance = 0 || self.status != "open"
       self.status = "rejected"
     end
   end
