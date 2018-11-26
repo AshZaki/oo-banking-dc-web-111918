@@ -17,5 +17,8 @@ class Transfer
     end
   end
   
-  def 
+  def execute_transaction
+    if @sender.status & @receiver.status = "open"
+      
+  end
 end
