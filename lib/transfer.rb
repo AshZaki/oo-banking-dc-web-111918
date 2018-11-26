@@ -19,7 +19,7 @@ class Transfer
   
   def execute_transaction
     if @sender.balance || @receiver.balance = 0
-      self.status = "Transaction rejected. Please check your account balance."
+      self.status == "rejected"
     end
   end
 end
