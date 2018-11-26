@@ -1,3 +1,5 @@
+
+
 class Transfer
   attr_accessor :status, :amount
   attr_reader :sender, :receiver
@@ -19,7 +21,7 @@ class Transfer
   
   def execute_transaction
     if @sender.balance < 0
-      return self.status = "rejected"
+      return @sender.status = "rejected"
     end
   end
 end
