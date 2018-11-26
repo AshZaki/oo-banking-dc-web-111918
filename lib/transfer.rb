@@ -16,4 +16,6 @@ class Transfer
       return false
     end
   end
+  
+  def 
 end
