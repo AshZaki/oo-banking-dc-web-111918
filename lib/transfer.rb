@@ -1,6 +1,7 @@
 class Transfer
   attr_accessor :status, :amount
   attr_reader :sender, :receiver
+  
   def initialize(sender,receiver,amount)
     @sender = sender
     @receiver = receiver
@@ -9,6 +10,8 @@ class Transfer
   end
   
   def valid?
-    
+    if self.status = "open"
+      
+    end
   end
 end
